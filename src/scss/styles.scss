@@ -113,7 +113,7 @@ img {
 
 .main_content_pic {
   width: 100%;
-  height: 55%;
+
   position: relative;
   box-shadow: 3px 10px 8px rgb(75, 62, 62);
   cursor: pointer;
@@ -135,4 +135,53 @@ img {
 
 .main_content_desc_info p {
   line-height: 1.5;
+}
+
+.main_content_desc_info_bot {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_content_desc_info_bot span:last-child {
+  color: #831d16;
+}
+
+.main_content_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.main_content_footer span {
+  color: #831d16;
+}
+
+.recomment_bar {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 50px;
+  background-color: #da281b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recomment_bar div {
+  padding: 10px;
+  color: #ffffff;
+}
+
+.movie_flag {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -4%;
+  right: 93%;
+  padding: 17px 26px 17px 26px;
+  background-color: #d1261a;
+  color: #ffffff;
+  font-size: 1.3rem;
 }
