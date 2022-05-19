@@ -21,6 +21,7 @@ img {
 }
 .father {
   padding-left: $fixed;
+
   // display: grid;
   // gap: 10px;
   // grid-template-columns: 33% 1fr;
@@ -29,6 +30,7 @@ img {
 }
 
 .sidebar {
+  min-width: 530px;
   width: $fixed;
   position: fixed;
   top: 0;
@@ -91,7 +93,7 @@ img {
 .main {
   padding: 105px 120px 80px 120px;
   background-color: aqua;
-
+  min-width: 1000px;
   background-color: $bg;
 }
 
@@ -103,6 +105,7 @@ img {
   height: 100%;
   margin-bottom: 50px;
   box-shadow: 4px 5px 10px rgb(167, 30, 30);
+  min-width: 1000px;
 }
 
 .main_content_movie_direc {
